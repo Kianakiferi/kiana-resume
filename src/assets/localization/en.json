@@ -1,0 +1,54 @@
+{
+    "language": "English",
+    "title": ".NET/C# Zhang Jingyu",
+    "version": "w-0.0.3",
+    "profile": {
+        "name": "Zhang Jingyu",
+        "info": "Male, 22-year-old, Wuhan City, Hubei Province",
+        "phone-number": "+86 177 2020 5191",
+        "email": "zjyswdd{'@'}live.com",
+        "job-intent": {
+            "title": "Job intent: ",
+            "target": ".NET Develop"
+        },
+        "expect-salary": {
+            "title": "Expect salary: ",
+            "target": "8192 ~ 13,750 CNY"
+        }
+    },
+    "personal-advantage": {
+        "title": "Personal Advantage",
+        "summary": "developing .NET 6 apps using C# 10",
+        "skills-count": "3",
+        "skills": [
+            "熟练运用 SOLID 设计原则、设计模式、软件工程等理念开发项目，熟悉 git，UML 建模",
+            "擅长数据库设计及对象关系映射创建维护高范式关系型数据库，熟练使用 EF Core，Linq 等",
+            "具备较强学习能力，了解其他开发技术，有 Vite，Vue 3， Kotlin，C++ 20等使用经历"
+        ]
+    },
+    "education": {
+        "title": "教育经历",
+        "school": "长江大学",
+        "degree": "本科",
+        "major": "计算机科学与技术",
+        "date": "2018-2022"
+    },
+    "projects": {
+        "title": "项目经历",
+        "programs-count": "2",
+        "programs": [
+            {
+                "title": "在线考试系统",
+                "functions": "主要功能：课程、知识点、试卷、考试、用户的管理，身份权限管理，智能组卷",
+                "technique": "后端技术：ASP.NET Core, RESTful WebApi, MVC, MVVM, Identity；数据库技术：MySql, EF Core 6；前端技术：Arco Design, Vite, Vue 3, Typescript"
+            },
+            {
+                "title": "算法演示集",
+                "functions": "主要功能：哲学家问题，Round Robin 进程调度，遗传算法，Huffman 编码, PCM, ADPCM 编码，数据流区间总结，xBRZ图像处理，画布绘制",
+                "technique": "项目技术：.NET 6，UWP，数据结构，并行处理、并发和异步，图形图像处理"
+            }
+        ]
+    },
+
+    "link": "github.com/Kianakiferi"
+}

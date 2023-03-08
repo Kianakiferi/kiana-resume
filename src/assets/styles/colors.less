@@ -1,0 +1,45 @@
+@color-light: #fbfbfb;
+
+@color-gray-0: #e5e5e5;
+@color-gray-1: #ededed;
+@color-gray-2: #d8d8d8;
+@color-gray-3: #cccccc;
+@color-gray-4: #a0a0a0;
+@color-gray-5: #808080;
+@color-gray-6: #646464;
+@color-gray-7: #505050;
+@color-gray-8: #3c3c3c;
+@color-gray-9: #363636;
+@color-gray-10: #303030;
+@color-gray-11: #252525;
+@color-gray-12: #1e1e1e;
+
+@color-kiana: #ff5050;
+@color-purple: #512bd4;
+@color-warning: #f0ad4e;
+@color-danger: #d33030;
+
+@color-gradient-start: #7014e8;
+@color-gradient-end: #4633dd;
+
+@color-gradient: linear-gradient(@color-gradient-start, @color-gradient-end);
+@color-gradient-s: linear-gradient(lighten(@color-gradient-start, 5%), lighten(@color-gradient-end, 5%));
+
+@color-primary: @color-purple;
+
+@color-link: @color-primary;
+@color-link-hover: darken(@color-link, 10%);
+
+:root {
+    --color-background-0: @color-gray-0;
+    --color-background-1: darken(@color-gray-0, 2%);
+      
+    --color-foreground: @color-gray-12;
+    
+    --color-border-0: @color-gray-0;
+    --color-border-1: @color-gray-1;
+    --color-border-2: @color-gray-4;
+    --color-border-transparent: #d8d8d888;
+
+    --color-gradient : @color-gradient;
+}

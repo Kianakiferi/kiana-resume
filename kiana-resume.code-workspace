@@ -1,0 +1,22 @@
+{
+	"folders": [
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+        "path-intellisense.mappings": {
+            "@": "${workspaceRoot}/src",
+                
+            "@models/*": "${workspaceRoot}/src/models/*",
+            "@components/*": "${workspaceRoot}/src/components/*",
+            //"@service/*": "${workspaceRoot}/src/service/*",
+
+            //"@router/*": "${workspaceRoot}/src/router/*",
+            //"@store/*": "${workspaceRoot}/src/store/*",
+
+            "@utils/*": "${workspaceRoot}/src/utils/*",
+            //"@storage": "${workspaceRoot}/src/utils/storage"
+        }
+    }
+}
