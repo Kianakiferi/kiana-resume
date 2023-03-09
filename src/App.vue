@@ -118,7 +118,7 @@ function getTranslatedFooterStrings() {
     margin-left: auto;
     width: 210mm;
     height: 297mm;
-    /*box-shadow: 2px 2px var(--color-background-1);*/
+    /*box-shadow: 2px 2px var(--color-background-2);*/
     background-color: white;
     padding: 3rem;
 }
