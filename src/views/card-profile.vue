@@ -7,11 +7,11 @@
                 <p class="mb-1">{{ props.data.info }}</p>
                 <p class="mb-4">
                     <span class="me-3">
-                        <svg-icon class="me-1" path="/images/phone.svg" alt="Phone icon" />
+                        <svg-icon class="me-1" name="phone" alt="Phone icon" />
                         {{ props.data.phoneNumber }}
                     </span>
                     <span>
-                        <svg-icon class="me-1" path="/images/email.svg" alt="EMail icon" />
+                        <svg-icon class="me-1" name="email" alt="EMail icon" />
                         {{ props.data.email }}
                     </span>
                 </p>
@@ -70,13 +70,13 @@ nextTick(() => {
 }
 
 .gradient {
-    background: var(--color-gradient);
+    background: var(--color-gradient-1);
 }
 
 .img-profile {
     height: 169.6px;
     width: 169.6px;
-    background: var(--color-gradient-s);
+    background: var(--color-gradient-0);
     outline: 2px solid var(--color-border-transparent);
 }
 

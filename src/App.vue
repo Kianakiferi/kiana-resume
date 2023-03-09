@@ -9,6 +9,7 @@
 </template>
 <script setup lang="ts">
 import { useI18n } from 'vue-i18n';
+
 import type { Profile } from '@models/Profile';
 import type { PersonalAdvantage } from '@models/PersonalAdvantage';
 import type { Education } from '@models/Education';

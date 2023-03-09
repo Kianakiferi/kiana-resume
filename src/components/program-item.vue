@@ -7,7 +7,6 @@
         <br/>
         {{ data.technique }}
     </div>
-    <slot></slot>
 </template>
 
 <script setup lang="ts">
